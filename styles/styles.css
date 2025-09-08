@@ -62,7 +62,7 @@ div.card-author {
 }
 
 .author-image-container {
-    max-width: 3vw;
+    max-width: 2.7rem;
 }
 
 .author-name {
@@ -88,4 +88,24 @@ footer {
 
 a.card-title:hover {
     color: hsl(47, 88%, 63%);
+}
+
+
+@media (max-width: 500px) {
+    .card {
+        max-width: 85vw;
+    }
+
+    .card-topic {
+        max-width: 6rem;
+    }
+
+    .author-image-container {
+        max-width: 8vw;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1rem;
+    }
 }
