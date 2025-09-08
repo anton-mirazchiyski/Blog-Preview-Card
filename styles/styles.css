@@ -21,8 +21,9 @@ main {
     max-width: 27rem;
     background-color: hsl(0, 0%, 100%);
     padding: 28.8px;    /* 1.8rem */
-    border-radius: 16px;
-    box-shadow: 5px 5px 3px 4px #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 6px 6px 3px 3px #000;
 }
 
 .card-image {
@@ -32,20 +33,22 @@ main {
 .card-topic {
     max-width: 25%;
     background-color: hsl(47, 88%, 63%);
-    padding: 0.5rem 0.9rem;
+    padding: 0.5rem 1rem;
     font-weight: 800;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-top: 0.7rem;
 }
 
 .card-date {
     color: hsl(0, 0%, 7%);
+    font-weight: 600;
 }
 
-.card-heading {
+.card-title {
     font-weight: 800;
     font-size: 1.5rem;
     color: hsl(0, 0%, 7%);
+    text-decoration: none;
 }
 
 .card-text {
@@ -67,7 +70,6 @@ div.card-author {
     font-weight: 800;
 }
 
-h1.card-heading:hover {
+a.card-title:hover {
     color: hsl(47, 88%, 63%);
-    cursor: pointer;
 }
