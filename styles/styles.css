@@ -16,6 +16,20 @@ main {
 
 .card {
     /* border: 1px solid #000; */
-    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 27rem;
     background-color: hsl(0, 0%, 100%);
+    padding: 28.8px;    /* 1.8rem */
+    border-radius: 16px;
+}
+
+div.card-author {
+    display: flex;
+    gap: 1rem;
+}
+
+.author-name {
+    align-self: center;
 }
