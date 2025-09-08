@@ -37,11 +37,31 @@ main {
     margin-top: 0.7rem;
 }
 
+.card-date {
+    color: hsl(0, 0%, 7%);
+}
+
+.card-heading {
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 7%);
+}
+
+.card-text {
+    color: hsl(0, 0%, 42%);
+}
+
 div.card-author {
     display: flex;
     gap: 1rem;
+    margin-top: 0.8rem;
+}
+
+.author-image-container {
+    max-width: 3vw;
 }
 
 .author-name {
     align-self: center;
+    font-weight: 800;
 }
