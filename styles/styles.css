@@ -2,7 +2,9 @@
 
 
 body {
-    font: 1rem/1.5 "Figtree", "sans-serif";
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    line-height: 1.5;
+    font-family: "Figtree", "sans-serif";
     font-weight: 500;
     background-color: hsl(47, 88%, 63%);
 }
@@ -31,7 +33,7 @@ main {
 }
 
 .card-topic {
-    max-width: 25%;
+    max-width: 27%;
     background-color: hsl(47, 88%, 63%);
     padding: 0.5rem 1rem;
     font-weight: 800;
@@ -46,7 +48,7 @@ main {
 
 .card-title {
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
     color: hsl(0, 0%, 7%);
     text-decoration: none;
 }
@@ -62,7 +64,7 @@ div.card-author {
 }
 
 .author-image-container {
-    max-width: 2.7rem;
+    max-width: 2.5rem;
 }
 
 .author-name {
